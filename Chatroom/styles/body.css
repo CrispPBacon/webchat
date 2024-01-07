@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+/* font-family: 'Comic Neue', cursive; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+/* BODY AND RELATED */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #1e1e1e;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    min-height: 100vh;
+    background: url('../images/5073414.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    position: absolute;
+    /* z-index: -1; */
+}

@@ -1,0 +1,131 @@
+/* Sign-in/Signup Styles */
+
+/* LOGIN STYLES */
+loginfailed {
+    position: absolute;
+    top: .8%;
+    background-color: #202020;
+    width: 75%;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: red;
+    font-size: .8rem;
+}
+
+loginfailed span {
+    color: greenyellow;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* .login-card-form {position: relative;} */
+
+.login-card-container, .register-card-container {
+    position: relative;
+}
+
+.login-card {
+    height: 20rem;
+    width: 20rem;
+    background-color: black;
+    border: 2px outset greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.login-card-header, .login-card-header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-card-header h1 {
+    color: greenyellow;
+}
+
+form.login-card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.form-item input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .75);
+    border: none;
+    padding: 4% 10% 4% 16%;
+    border-radius: 20px;
+}
+
+.form-item input:focus {
+    outline: none;
+    background-color: white;
+}
+
+.form-item input:not(:placeholder-shown) { background-color: white; }
+
+.form-item input::-ms-reveal {
+    display: none;
+}
+
+.form-item ion-icon {
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.form-item-other {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.form-item-other span {
+    display: flex;
+}
+
+.form-item-other span label {
+    margin-left: 3px;
+}
+
+form.login-card-form > span  {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form.login-card-form > span input {
+    width: 80%;
+    padding: .3rem;
+    border-radius: 20px;
+    border: none;
+    transition: transform .2s;
+}
+
+form.login-card-form > span input:hover { background-color: greenyellow; }
+
+form.login-card-form > span input:active { transform: translateY(3px); }
+
+.login-card > span { text-align: center; }
+
+a { color: white; text-decoration: none; }
+a:hover { color: greenyellow; }
+/* ================================== */
+
+/* REGISTER STYLES */
+
+.register-card {
+    height: 25rem;
+}

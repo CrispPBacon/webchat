@@ -1,0 +1,31 @@
+.green-color { color: #0FA958; }
+.green-bg { background-color: #0FA958; }
+.purple-color { color: #C463F2;}
+.purple-bg { background-color: #C463F2; }
+input:focus {outline: none; }
+.hidden { display: none; }
+.bottom-zero { bottom: 0; }
+
+.border-radius-bottom {
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.evenly { justify-content: space-evenly; }
+time { font-size: .6rem;}
+
+empty { text-align: center}
+
+.active-line { border-bottom: 2px #0FA958 dotted;}
+
+/* ========================= */
+.unread { font-weight: bold; }
+.read {font-weight: unset;}
+chat {font-size: .8rem;}
+
+.id_loader {
+    background-color: white;
+    color: white;
+    z-index: -1;
+    border: none;
+}
