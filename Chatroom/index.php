@@ -18,7 +18,7 @@
     <!-- <script src="scripts/chatbox.js" defer></script> -->
 </head>
 <body id="statediv">
-    <!-- JUST SOME CHANGES! -->
+    <!-- Hi! -->
     <?php 
     if (isset($_SESSION['useruid'])) {
         $username = $_SESSION['useruid'];
